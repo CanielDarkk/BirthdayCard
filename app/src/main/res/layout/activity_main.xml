@@ -5,9 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <!-- tools:context=".MainActivity"> -->
+
     <TextView
         android:id="@+id/Birthday_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday Jasek" />
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="I like Minecraft"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/from_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Minecraft is a good game" />
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/androidparty" />
+
 </RelativeLayout>
